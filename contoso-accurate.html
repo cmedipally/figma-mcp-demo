@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoso Electronics Communication - Accurate Replica</title>
+    <link rel="stylesheet" href="contoso-accurate-styles.css">
+</head>
+<body>
+    <!-- Left Sidebar (80px wide) -->
+    <nav class="sidebar">
+        <div class="sidebar-icons">
+            <button class="sidebar-icon">⊞</button>
+            <button class="sidebar-icon active">■</button>
+            <button class="sidebar-icon">●</button>
+            <button class="sidebar-icon">☰</button>
+        </div>
+        <div class="sidebar-bottom">
+            <button class="sidebar-icon">?</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <!-- Test Header -->
+        <div style="background: #038387; color: white; padding: 16px 32px; text-align: center; font-size: 24px; font-weight: 600; border-bottom: 3px solid #027377;">
+            RemoteMCP Test
+        </div>
+
+        <!-- Global Header (48px) -->
+        <header class="global-header">
+            <div class="header-left">
+                <span class="brand">RELECLOUD</span>
+                <span class="divider">|</span>
+                <span class="site-name">SharePoint</span>
+            </div>
+            <div class="header-right">
+                <input type="search" placeholder="🔍 Workplace test" class="search-input" />
+                <button class="header-icon">🔔</button>
+                <button class="header-icon">👁</button>
+                <button class="header-icon">⚙</button>
+                <button class="header-icon">📋</button>
+                <button class="header-icon">❓</button>
+                <div class="user-avatar"></div>
+            </div>
+        </header>
+
+        <!-- Site Header (80px teal bar) -->
+        <div class="site-header">
+            <div class="site-logo">CS</div>
+            <h1 class="site-title">Contoso Electronics Communication</h1>
+            <nav class="site-nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Documents</a>
+                <a href="#" class="nav-link">Pages</a>
+                <a href="#" class="nav-link">Site contents</a>
+                <a href="#" class="nav-link">Edit</a>
+            </nav>
+            <div class="site-badges">
+                <span class="badge">Confidential | Internal only ⚠️ Not following</span>
+                <button class="badge-btn">📢 Share</button>
+                <button class="badge-btn">🌐 Site access</button>
+            </div>
+        </div>
+
+        <!-- Command Bar (52px) -->
+        <div class="command-bar">
+            <div class="command-left">
+                <button class="cmd-btn">➕ New ▾</button>
+                <button class="cmd-btn">📄 Page details</button>
+                <button class="cmd-btn">🔍 Preview</button>
+                <button class="cmd-btn">▶️</button>
+                <button class="cmd-btn">📊 Analytics</button>
+            </div>
+            <div class="command-right">
+                <span class="status">✓ Published on 7/24/2025</span>
+                <button class="cmd-btn">📤 Analytics</button>
+                <button class="cmd-btn">✏️ Edit</button>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <main class="page-content">
+            <!-- Hero Tiles Section (450px height) -->
+            <section class="hero-tiles">
+                <!-- Large Left Tile -->
+                <div class="hero-large">
+                    <img src="images/hero-large.jpg" alt="Miriam Graham" />
+                    <div class="hero-overlay">
+                        <h2 class="hero-title">Miriam Graham, Contoso's new Chief Marketing Officer</h2>
+                        <p class="hero-cta">Call to action text. 40 characters max. →</p>
+                    </div>
+                </div>
+
+                <!-- 2x2 Grid of Smaller Tiles -->
+                <div class="hero-grid">
+                    <!-- Row 1 -->
+                    <div class="tile-small tile-teal">
+                        <h3 class="tile-title">Open for all roles</h3>
+                    </div>
+                    <div class="tile-small tile-image">
+                        <img src="images/tile-image.jpg" alt="Design patterns" />
+                        <div class="tile-overlay">
+                            <h3 class="tile-title">Communicating Product Value</h3>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="tile-small tile-image">
+                        <img src="images/tile-image.jpg" alt="Get trained" />
+                        <div class="tile-overlay">
+                            <h3 class="tile-title">Get trained by the experts</h3>
+                        </div>
+                    </div>
+                    <div class="tile-small tile-teal">
+                        <h3 class="tile-title">Taking flight: Student mentorship opportunities...</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News Section (Side-by-side) -->
+            <section class="news-section">
+                <h2 class="section-divider">1/2 column<br><span class="divider-sub">(Drop or paste components here)</span></h2>
+
+                <div class="news-grid">
+                    <!-- News Article 1 -->
+                    <article class="news-item">
+                        <img src="images/news-thumb.jpg" alt="President's Keynote" class="news-thumb" />
+                        <div class="news-content">
+                            <span class="news-badge">ORG NAME</span>
+                            <h3 class="news-title">President's Keynote Speech: August 2024</h3>
+                            <p class="news-description">Contoso President, Patti Fernandez delivered a key n...</p>
+                            <div class="news-meta">
+                                <span class="meta-author">Mona Kane</span>
+                                <span class="meta-date">June 15</span>
+                                <span class="meta-views">256 views</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- News Article 2 -->
+                    <article class="news-item">
+                        <img src="images/news-thumb.jpg" alt="One Million Drones" class="news-thumb" />
+                        <div class="news-content">
+                            <span class="news-badge">ORG NAME</span>
+                            <h3 class="news-title">One Million Drones Sold in 2024</h3>
+                            <p class="news-description">Congratulations Contoso team! This September we...</p>
+                            <div class="news-meta">
+                                <span class="meta-author">Mona Kane</span>
+                                <span class="meta-date">June 15</span>
+                                <span class="meta-views">256 views</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <hr class="news-divider" />
+
+                <div class="news-grid">
+                    <!-- News Article 3 -->
+                    <article class="news-item">
+                        <img src="images/news-thumb.jpg" alt="Building ecosystem" class="news-thumb" />
+                        <div class="news-content">
+                            <span class="news-badge">ORG NAME</span>
+                            <h3 class="news-title">Building an ecosystem for responsible drone use and development on Microsoft Azure</h3>
+                            <p class="news-description">Description goes here, 1 row max</p>
+                            <div class="news-meta">
+                                <span class="meta-author">Mona Kane</span>
+                                <span class="meta-date">June 15</span>
+                                <span class="meta-views">256 views</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- News Article 4 -->
+                    <article class="news-item">
+                        <img src="images/news-thumb.jpg" alt="Have Your Say" class="news-thumb" />
+                        <div class="news-content">
+                            <span class="news-badge">ORG NAME</span>
+                            <h3 class="news-title">Have Your Say: Time Is Running Out to Comment On Proposed FAA Rules</h3>
+                            <p class="news-description">Description goes here, 1 row max</p>
+                            <div class="news-meta">
+                                <span class="meta-author">Mona Kane</span>
+                                <span class="meta-date">June 15</span>
+                                <span class="meta-views">256 views</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Bottom Hero Section (Full Width) -->
+            <section class="hero-tiles bottom-hero">
+                <div class="hero-large">
+                    <img src="images/hero-large.jpg" alt="Hero" />
+                    <div class="hero-overlay">
+                        <h2 class="hero-title">80 Characters max Lorem ipsum dolor sit amet, consectuetur adipiscing elit,...</h2>
+                        <p class="hero-cta">Call to action text. 40 characters max. →</p>
+                    </div>
+                </div>
+                <div class="hero-large hero-teal">
+                    <div class="hero-overlay-center">
+                        <h2 class="hero-title">100 characters and 3 lines max. Hero title text</h2>
+                        <p class="hero-cta">Call to action text. 40 characters max. →</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Floating Action Button -->
+    <button class="fab">+</button>
+</body>
+</html>
